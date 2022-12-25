@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'THICCCBOI';
+    font-size: 14px;
+    box-sizing: border-box;
+    --main-lb-color: #313131;
+    --main-orange-color: #FFA849;
+    --main-decr-color: #757683;
+    --main-gray-color: #D9D9D9;
+    --main-beige-color: #F8BF99;
+    --main-pg-color: rgba(244, 241, 254, 0.63);
+    --main-purple-color: #4C1D95; 
+    --main-blue-color: #1070C8;
+    --main-vs-color: #F8F6FE;
+    --main-ph-color: #ABB1BB;
+    --main-ib-color: #CED4DA;
+    --main-cm-color: #280067;
+}
+
+button {
+    background: transparent;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
