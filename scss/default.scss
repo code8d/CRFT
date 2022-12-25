@@ -1,3 +1,6 @@
+$montserrat: 'Montserrat';
+$oswald: 'Oswald';
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -9,44 +12,4 @@
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: content-box;
-}
-
-.df {
-    display: flex;
-}
-
-.fldc {
-    flex-direction: column;
-}
-
-.fldr {
-    flex-direction: row;
-}
-
-.flw {
-    flex-wrap: wrap;
-}
-
-.jcc {
-    justify-content: center;
-}
-
-.jcfs {
-    justify-content: flex-start;
-}
-
-.jcfe {
-    justify-content: flex-end;
-}
-
-.aic {
-    align-items: center;
-}
-
-.aifs {
-    align-items: flex-start;
-}
-
-.aife {
-    align-items: flex-end;
 }

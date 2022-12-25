@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
-@import 'fonts/stylesheet.css';
+@import '../fonts/stylesheet.css';
 * {
   margin: 0;
   padding: 0;
@@ -51,63 +51,77 @@ a {
           box-sizing: content-box;
 }
 
-.df {
+.header-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 150px;
 }
-
-.fldc {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.fldr {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.flw {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.jcc {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.jcfs {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.jcfe {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.aic {
+.header-block .logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-
-.aifs {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+.header-block .header__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-.aife {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+.header-block .header__navigation .link-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-block .header__navigation .link-wrapper:not(:last-child) {
+  margin-right: 36px;
+}
+.header-block .header__navigation .link-wrapper > *:not(:last-child) {
+  margin-right: 16px;
+}
+.header-block .header__navigation .link-wrapper .navigation__link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #17313B;
+}
+.header-block .header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-block .header__button .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 196px;
+  height: 59px;
+  background: #04000A;
+  color: #fff;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-family: "Montserrat";
+  font-weight: 600;
 }
