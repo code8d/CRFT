@@ -13,3 +13,26 @@ $oswald: 'Oswald';
     padding: 0 25px;
     box-sizing: content-box;
 }
+
+.above-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $oswald;
+    font-size: 20px;
+    color: var(--main-orange-color);
+    margin-bottom: 17px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: $oswald;
+    font-size: 38px;
+    color: var(--main-lb-color);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
