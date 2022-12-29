@@ -14,6 +14,12 @@ $oswald: 'Oswald';
     box-sizing: content-box;
 }
 
+@media (max-width: 320px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
 .above-title {
     text-transform: uppercase;
     font-weight: 500;
@@ -21,6 +27,7 @@ $oswald: 'Oswald';
     font-size: 20px;
     color: var(--main-orange-color);
     margin-bottom: 17px;
+    letter-spacing: 0.3px;
 }
 
 .title {
@@ -35,4 +42,69 @@ $oswald: 'Oswald';
     font-weight: 500;
     font-size: 18px;
     color: #000;
+}
+
+@media (max-width: 768px) {
+    .above-title {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: $oswald;
+        font-size: 20px;
+        color: var(--main-orange-color);
+        margin-bottom: 17px;
+    }
+    
+    .title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: $oswald;
+        font-size: 30px;
+        color: var(--main-lb-color);
+    }
+    
+    .subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+    }
+}
+
+@media (max-width: 425px) {
+    .above-title {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: $oswald;
+        font-size: 16px;
+        color: var(--main-orange-color);
+        margin-bottom: 17px;
+    }
+    
+    .title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: $oswald;
+        font-size: 24px;
+        color: var(--main-lb-color);
+    }
+    
+    .subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000;
+    }
+}
+
+.small_title {
+    font-weight: 600;
+    font-family: $oswald;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.small_subtitle {
+    font-weight: 500;
+    font-family: $oswald;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(49, 49, 49, .5);
 }
