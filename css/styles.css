@@ -3089,3 +3089,276 @@ a {
     color: #131226;
   }
 }
+.porfolio-block {
+  padding-top: 190px;
+}
+.porfolio-block .title-block {
+  margin-bottom: 55px;
+}
+.porfolio-block .content-block .cards-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -35px;
+  margin-bottom: 40px;
+}
+.porfolio-block .content-block .cards-block .card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+  padding: 0 35px;
+  margin-bottom: 50px;
+}
+.porfolio-block .content-block .cards-block .card .image-block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 249px;
+  margin-bottom: 25px;
+}
+.porfolio-block .content-block .cards-block .card .image-block .image {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.porfolio-block .content-block .cards-block .card .image-block .play-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.porfolio-block .content-block .cards-block .card .image-block .play-block .icon {
+  position: relative;
+  z-index: 10;
+}
+.porfolio-block .content-block .cards-block .card .description-block > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+.porfolio-block .content-block .cards-block .card .description-block .description__title {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 20px;
+}
+.porfolio-block .content-block .cards-block .card .description-block .description__text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757683;
+}
+.porfolio-block .content-block .button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.porfolio-block .content-block .button-block .button {
+  width: 310px;
+  height: 60px;
+  background: #000;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2.2px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .porfolio-block {
+    padding-top: 150px;
+  }
+  .porfolio-block .title-block {
+    margin-bottom: 55px;
+  }
+  .porfolio-block .content-block .cards-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 -30px;
+    margin-bottom: 40px;
+  }
+  .porfolio-block .content-block .cards-block .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding: 0 30px;
+    margin-bottom: 50px;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 249px;
+    margin-bottom: 25px;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block .image {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block .play-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block .play-block .icon {
+    position: relative;
+    z-index: 10;
+  }
+  .porfolio-block .content-block .cards-block .card .description-block > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .porfolio-block .content-block .cards-block .card .description-block .description__title {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .porfolio-block .content-block .cards-block .card .description-block .description__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #757683;
+  }
+  .porfolio-block .content-block .button-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .porfolio-block .content-block .button-block .button {
+    width: 256px;
+    height: 60px;
+    background: #000;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2.2px;
+    border-radius: 10px;
+    color: #fff;
+  }
+}
+@media (max-width: 425px) {
+  .porfolio-block {
+    padding-top: 145px;
+  }
+  .porfolio-block .title-block {
+    margin-bottom: 45px;
+  }
+  .porfolio-block .title-block .title {
+    text-align: center;
+    font-size: 24px;
+  }
+  .porfolio-block .content-block .cards-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .porfolio-block .content-block .cards-block .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 249px;
+    margin-bottom: 25px;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block .image {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block .play-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .porfolio-block .content-block .cards-block .card .image-block .play-block .icon {
+    position: relative;
+    z-index: 10;
+  }
+  .porfolio-block .content-block .cards-block .card .description-block > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .porfolio-block .content-block .cards-block .card .description-block .description__title {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .porfolio-block .content-block .cards-block .card .description-block .description__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #757683;
+  }
+  .porfolio-block .content-block .button-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .porfolio-block .content-block .button-block .button {
+    width: 256px;
+    height: 60px;
+    background: #000;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2.2px;
+    border-radius: 10px;
+    color: #fff;
+  }
+}
